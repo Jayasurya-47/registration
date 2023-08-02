@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourits Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Choose your favourites to make match</h1>
+    <form action="thank.html" target="_blank">
+
+        <label for="favcolor">Choose your favoritecolor:</label>
+        <input type="color" id="favcolor" name="favcolor">
+
+        <label for="bdaymonth">choose month and year</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+
+        <label for="vol">Interest in gmaes</label>
+       <input type="range" id="vol" name="vol" min="0" max="100">
+
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+
+
+        <label for="homepage">Last browsed url: </label>
+        <input type="url" id="homepage" name="homepage">
+
+        <p>Select your freetime</p>
+
+        <input type="checkbox" id="subject1" name=" subject1" value="Tamil">
+        <label for=" subject1"> I was free in morning </label><br>
+        <input type="checkbox" id=" subject2" name=" subject2" value="Telugu">
+        <label for=" subject2"> I was free in afternoon</label><br>
+        <input type="checkbox" id=" subject3" name=" subject3" value=" English ">
+        <label for=" subject3"> I was free in evening</label>
+
+
+        <div id="submit">
+            <input type="submit" value="Submit" required>
+            <input type="reset">
+        </div>
+
+    </form>
+        
+</body>
+</html>  
